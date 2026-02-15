@@ -4,7 +4,7 @@
 
 This repository documents a governance-first architecture for managing the full lifecycle of machine learning systems, including retraining orchestration, model validation, artifact promotion, batch inference control, release discipline, and production reliability safeguards.
 
-Modern ML systems fail not because models are inaccurate, but because lifecycle controls are weak. Unvalidated retraining, uncontrolled artifact promotion, environment drift, and lack of rollback discipline introduce silent production risk.
+Modern ML systems rarely fail at training time; they fail at lifecycle control boundaries. Unvalidated retraining, uncontrolled artifact promotion, environment drift, and lack of rollback discipline introduce silent production risk.
 
 This framework models how enterprise ML platforms enforce:
 
@@ -42,13 +42,13 @@ This repository is structured around the following governance layers:
 ---
 
 ## Repository Structure
-/architecture # System boundaries and lifecycle flows
-/retraining-orchestration # Scheduled retraining and validation gates
-/batch-inference # Inference execution and version reconciliation
-/release-governance # Environment promotion and approval workflows
-/operational-controls # Monitoring, alerts, rollback safeguards
-/operating-model # Cross-functional responsibilities and escalation model
 
+/architecture              # System boundaries and lifecycle flows  
+/retraining-orchestration  # Scheduled retraining and validation gates  
+/batch-inference           # Inference execution and version reconciliation  
+/release-governance        # Environment promotion and approval workflows  
+/operational-controls      # Monitoring, alerts, rollback safeguards  
+/operating-model           # Cross-functional responsibilities and escalation model  
 
 ---
 
