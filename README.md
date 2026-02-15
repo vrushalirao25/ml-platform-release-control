@@ -26,12 +26,15 @@ This repository models a governance-first approach to prevent silent performance
 
 ## Repository Structure
 
+```text
 mlops-production-governance/
 │
-├── architecture/ # System design diagrams
-├── dags/ # Airflow orchestration skeleton
-├── src/ # ETL, training, evaluation, deployment logic
-├── docker/ # Containerization setup
-├── batch/ # Batch inference simulation
-├── governance/ # Rollback & operational control strategy
+├── architecture/              # System design diagrams
+├── dags/                      # Airflow orchestration skeleton
+├── src/                       # ETL, training, evaluation, deployment logic
+├── docker/                    # Containerization setup
+├── batch/                     # Batch inference simulation
+├── governance/                # Rollback & operational control strategy
 └── README.md
+```
+
