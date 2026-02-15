@@ -124,18 +124,6 @@ Production ML systems require continuous oversight, not periodic review.
 
 ---
 
-## Intended Audience
-
-This blueprint is intended for:
-
-- Platform Engineers  
-- MLOps Practitioners  
-- DevOps Engineers  
-- Technical Program Managers  
-- Engineering Leaders responsible for production AI systems  
-
----
-
 ## Objective
 
 The objective of this framework is to ensure:
